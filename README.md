@@ -21,3 +21,4 @@ Dateien in den Hauptordner des Repositories `armin-historik/man-massage` hochlad
 - Domain NICHT vor vollständiger Prüfung umstellen.
 
 Dies ist bewusst ein **erster Startseitenentwurf**, keine fertige Migration.
+GitHub Pages Test – November 2026
