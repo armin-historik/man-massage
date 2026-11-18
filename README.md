@@ -1,12 +1,10 @@
-MAN-MASSAGE – Fresh Urban, Stand 18.11.2026
+MAN-MASSAGE | Deutsch + English
 
-Alle Dateien und Ordner direkt ins GitHub-Pages-Hauptverzeichnis hochladen. assets/ und blog/ beibehalten.
-
-Buchung: https://man-massage.youcanbook.me/
-Vali: CHF 70 / 60 Minuten (Aktion, tagsüber nach Verfügbarkeit). Regulär: CHF 90 / 60, CHF 130 / 90, CHF 180 / 120.
-
-Datenschutz und Impressum sind mit den mitgeteilten Angaben ausgefüllt. Vor öffentlicher Nutzung tatsächliche technische Dienste und Buchungsfelder prüfen.
-
-WICHTIG: Die Webseite ist aktuell bewusst auf noindex/nofollow gestellt, robots.txt sperrt Suchmaschinen. Für öffentlichen Start diese Einstellungen gezielt anpassen.
-
-Die externen Google Fonts wurden entfernt; die Seite nutzt Systemschriften.
+Upload the entire contents of this ZIP to the GitHub Pages repository root.
+German: index.html; English: en/index.html. Language switch DE / EN on main pages.
+All booking links: https://man-massage.youcanbook.me/
+Phone/SMS/WhatsApp: +41 78 983 17 47; email: massage@man-massage.ch
+Payment: cash, credit card, TWINT.
+Travel from Zurich HB: about 30 minutes including short walk.
+Privacy policy and blog remain in German. English legal notice links to German privacy policy.
+Search indexing remains disabled until public launch.
