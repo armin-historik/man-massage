@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Testversion: Vor Domainwechsel neu konfigurieren

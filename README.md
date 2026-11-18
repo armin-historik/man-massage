@@ -1,24 +1,20 @@
-# MAN-MASSAGE – Website-Entwurf
+# MAN-MASSAGE – neue GitHub-Webseite (Testversion)
 
-Moderne, responsive Startseite für GitHub Pages. Die bestehende Wix-Seite bleibt bis zum geplanten Wechsel unverändert online.
+## Enthalten
+- Startseite mit zwei Massage-Bereichen
+- Gay Massage: eigene Unterseiten Winterthur und Zürich
+- Team, Kontakt, Impressum, Datenschutz
+- Blog mit 10 Beiträgen
+- Responsives Layout, Navigation, SEO-Metadaten
 
-## Dateien
-- `index.html` – Startseite
-- `style.css` – Design und mobile Darstellung
-- `script.js` – Mobilnavigation
+## WICHTIG vor Livegang
+1. Testseiten sind absichtlich mit `noindex,nofollow` markiert, robots.txt sperrt Crawler. Erst beim Domainwechsel nach URL-Migration und Weiterleitungen anpassen.
+2. Originale Wix-URLs exportieren und 301-Weiterleitungen planen. GitHub Pages bietet keine frei konfigurierbaren serverseitigen 301-Weiterleitungen; bei Bedarf DNS/CDN/Redirect-Service verwenden.
+3. Buchungsbutton führt vorläufig zur bestehenden Startseite https://www.man-massage.ch/; den echten Buchungslink einsetzen und testen.
+4. Originalfotos von Vali und Armin und ggf. neue KI-Massagebilder ergänzen. Grafische Hero-Fläche ist absichtlich nur ein Platzhalter.
+5. Impressum und Datenschutz vervollständigen. Google Fonts bei Bedarf lokal einbinden.
+6. Preise und Leistungsbeschreibung mit den tatsächlichen Angeboten abgleichen.
+7. Google Search Console, Canonicals, Sitemap und Analytics erst zum Livegang korrekt konfigurieren.
+8. GitHub-Testadresse: https://armin-historik.github.io/man-massage/
 
-## GitHub Pages testen
-Dateien in den Hauptordner des Repositories `armin-historik/man-massage` hochladen. In **Settings → Pages** als Source **Deploy from a branch**, Branch **main**, Folder **/(root)** auswählen. Die Testadresse lautet voraussichtlich `https://armin-historik.github.io/man-massage/` nach erfolgreicher Aktivierung.
-
-## Vor Livegang unbedingt erledigen
-- Echte, freigegebene Fotos von Vali und Armin einsetzen (aktuell absichtlich grafische Platzhalter).
-- Genaue Praxisadresse und Anreisehinweise ergänzen.
-- Aktion CHF 70 und alle Buchungsoptionen prüfen.
-- Impressum und Datenschutzerklärung hinzufügen.
-- Alle bestehenden Wix-URLs, Metadaten, SEO-Texte und Weiterleitungen erfassen und migrieren.
-- Buchungslink `https://man-massage.youcanbook.me/` auf Funktion prüfen.
-- Google-Fonts-Einbindung datenschutzrechtlich prüfen oder lokal/mit Systemschriften ersetzen.
-- Domain NICHT vor vollständiger Prüfung umstellen.
-
-Dies ist bewusst ein **erster Startseitenentwurf**, keine fertige Migration.
-GitHub Pages Test – November 2026
+Dateien direkt ins Root des Repositorys hochladen, den Ordner `blog` mit hochladen. Wix und Domain bis zum Wechsel unverändert lassen.
