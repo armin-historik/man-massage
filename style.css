@@ -1,8 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap');
 
-/* MAN-MASSAGE – Fresh Urban */
-/* Gemeinsames CSS für Deutsch und Englisch */
+/* =====================================
+   MAN-MASSAGE – FRESH URBAN
+   Deutsch + Englisch
+   ===================================== */
 
 :root {
   --navy: #113d48;
@@ -43,11 +45,11 @@ img {
   margin: auto;
 }
 
-/* Oberer Hinweis */
+/* Oberer Balken */
 
 .top {
   background: var(--teal);
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 7px 12px;
   font-size: 13px;
@@ -56,7 +58,7 @@ img {
 /* Navigation */
 
 .header {
-  background: white;
+  background: #fff;
   position: sticky;
   top: 0;
   z-index: 20;
@@ -78,11 +80,12 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-shrink: 0;
 }
 
 .mark {
   background: var(--teal);
-  color: white;
+  color: #fff;
   border-radius: 50%;
   width: 39px;
   height: 39px;
@@ -110,56 +113,71 @@ img {
   font-size: 14px;
 }
 
-/* Buttons */
+/* =====================================
+   BUTTONS – SICHTBAR OHNE HOVER
+   ===================================== */
 
-.button,
-.links .button {
+a.button,
+a.button:link,
+a.button:visited,
+.links a.button,
+.links a.button:link,
+.links a.button:visited {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: var(--coral);
+  background-color: var(--coral);
   color: #ffffff !important;
   border-radius: 8px;
   padding: 13px 22px;
   text-decoration: none;
   font-weight: 800;
-  border: 0;
   line-height: 1.4;
   text-align: center;
+  border: 0;
   opacity: 1;
   visibility: visible;
-  transition: background 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
-.button:hover,
-.links .button:hover {
-  background: #b94f47;
+a.button:hover,
+a.button:focus-visible,
+.links a.button:hover,
+.links a.button:focus-visible {
+  background-color: #b94f47;
   color: #ffffff !important;
 }
 
-.button.secondary {
-  background: var(--teal);
+a.button.secondary,
+a.button.secondary:visited {
+  background-color: var(--teal);
+  color: #ffffff !important;
 }
 
-.button.secondary:hover {
-  background: var(--navy);
+a.button.secondary:hover {
+  background-color: var(--navy);
 }
 
-.button.ghost,
-.actions .button.ghost {
-  background: #ffffff;
+a.button.ghost,
+a.button.ghost:link,
+a.button.ghost:visited,
+.actions a.button.ghost {
+  background-color: #ffffff;
   color: var(--navy) !important;
 }
 
-.button.ghost:hover,
-.actions .button.ghost:hover {
-  background: #e8f5f3;
+a.button.ghost:hover,
+a.button.ghost:focus-visible {
+  background-color: #e8f5f3;
   color: var(--navy) !important;
 }
 
-.links .button {
+.links a.button {
   white-space: nowrap;
 }
+
+/* Mobile-Menü */
 
 .menu {
   display: none;
@@ -192,7 +210,9 @@ img {
   border-color: #176a70;
 }
 
-/* Startseite – Titelbild */
+/* =====================================
+   STARTSEITE – TITELBILD
+   ===================================== */
 
 .hero {
   min-height: 550px;
@@ -251,7 +271,9 @@ img {
   min-height: 48px;
 }
 
-/* Angebot Vali */
+/* =====================================
+   VALI – CHF 70 ANGEBOT
+   ===================================== */
 
 .offer,
 .hero .offer {
@@ -265,7 +287,10 @@ img {
 
 .offer span,
 .offer strong,
-.offer p {
+.offer p,
+.hero .offer span,
+.hero .offer strong,
+.hero .offer p {
   color: #233b3d;
 }
 
@@ -285,18 +310,20 @@ img {
 .hero .offer p {
   font-size: 14px;
   margin: 0 0 17px;
-  color: #233b3d;
 }
 
-.offer .button,
-.hero .offer .button {
-  background: var(--navy);
+.offer a.button,
+.offer a.button:link,
+.offer a.button:visited,
+.hero .offer a.button {
+  background-color: var(--navy);
   color: #ffffff !important;
   width: 100%;
 }
 
-.offer .button:hover {
-  background: var(--teal);
+.offer a.button:hover,
+.offer a.button:focus-visible {
+  background-color: var(--teal);
   color: #ffffff !important;
 }
 
@@ -339,7 +366,7 @@ p {
 }
 
 .card {
-  background: white;
+  background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 16px;
   overflow: hidden;
@@ -377,7 +404,9 @@ p {
   font-weight: 800;
 }
 
-/* Vali und Armin */
+/* =====================================
+   VALI UND ARMIN
+   ===================================== */
 
 .soft {
   background: #e8f5f3;
@@ -393,7 +422,7 @@ p {
   display: flex;
   align-items: center;
   gap: 22px;
-  background: white;
+  background: #ffffff;
   border-radius: 15px;
   padding: 23px;
   border: 1px solid var(--line);
@@ -435,7 +464,7 @@ p {
 }
 
 .price-card {
-  background: white;
+  background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 14px;
   text-align: center;
@@ -470,7 +499,9 @@ p {
   font-size: 19px;
 }
 
-/* Anreise, Kontakt und Bezahlung */
+/* =====================================
+   ANREISE, KONTAKT, BEZAHLUNG
+   ===================================== */
 
 .practical {
   background: #f0f6f4;
@@ -503,7 +534,7 @@ p {
   text-underline-offset: 3px;
 }
 
-/* Abschluss mit Buchungsbutton */
+/* Abschluss */
 
 .dark {
   background: var(--navy);
@@ -521,7 +552,9 @@ p {
   gap: 25px;
 }
 
-/* Unterseiten */
+/* =====================================
+   UNTERSEITEN
+   ===================================== */
 
 .subhero {
   padding: 65px 0 45px;
@@ -551,7 +584,7 @@ p {
 }
 
 .faq details {
-  background: white;
+  background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 10px;
   margin: 9px 0;
@@ -593,7 +626,9 @@ p {
   font-weight: 700;
 }
 
-/* Footer */
+/* =====================================
+   FOOTER
+   ===================================== */
 
 .footer {
   background: #092f39;
@@ -622,7 +657,9 @@ p {
   font-size: 14px;
 }
 
-/* Tablet und kleinere Bildschirme */
+/* =====================================
+   TABLET
+   ===================================== */
 
 @media (max-width: 1050px) {
   .nav {
@@ -656,7 +693,7 @@ p {
     flex-direction: column;
     align-items: stretch;
     gap: 12px;
-    background: white;
+    background: #ffffff;
     padding: 24px;
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.13);
   }
@@ -692,7 +729,9 @@ p {
   }
 }
 
-/* Smartphone */
+/* =====================================
+   SMARTPHONE
+   ===================================== */
 
 @media (max-width: 620px) {
   .container {
@@ -770,3 +809,4 @@ p {
     font-size: 20px;
   }
 }
+
