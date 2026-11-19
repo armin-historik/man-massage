@@ -1,392 +1,80 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de-CH">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <title>Massage für Männer in Winterthur | MAN-MASSAGE</title>
-  <meta name="description" content="Massage von Mann zu Mann in Winterthur. Lerne Vali und Armin kennen und buche deine Auszeit online. Montag bis Samstag 12–22 Uhr, Sonntag 12–18 Uhr.">
-  <meta name="robots" content="noindex,nofollow">
-
-  <link href="style.css?v=20261119-zeiten" rel="stylesheet">
-  <link rel="alternate" hreflang="en" href="en/index.html">
-  <link rel="alternate" hreflang="de-CH" href="index.html">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Massage für Männer in Winterthur | MAN-MASSAGE</title>
+<meta name="description" content="Persönliche Massage von Mann zu Mann in Winterthur. Montag bis Samstag 12–22 Uhr, Sonntag 12–18 Uhr. Wähle Vali oder Armin und buche online.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="style.css?v=20261119-layout2">
+<link rel="alternate" hreflang="de-CH" href="index.html">
+<link rel="alternate" hreflang="en" href="en/index.html">
+<style>
+/* Ergänzungen zur bestehenden style.css: nur diese Startseite */
+:root{--mm-ink:#183a37;--mm-gold:#b98742;--mm-cream:#faf7f0;--mm-border:#e5e1d8}
+html{scroll-behavior:smooth}
+body{font-size:17px;line-height:1.6}
+.hero{background:linear-gradient(90deg,rgba(17,37,34,.85),rgba(17,37,34,.38)),url('assets/massage-detail.jpg') center 44%/cover no-repeat!important;color:#fff;min-height:460px;display:flex;align-items:center}
+.hero h1{font-size:clamp(2.7rem,5vw,4.6rem);line-height:1.08;color:#fff}
+.hero p{font-size:1.1rem;max-width:540px;color:#fff}
+.hero .eyebrow{color:#f5d39a}
+.hero-inner{align-items:center;gap:3rem}
+.offer{background:#fff8e8;color:#263c36;border:1px solid #ebd9b7;border-radius:18px;padding:28px;box-shadow:0 12px 35px #0003}
+.offer span{color:#75542c}.offer strong{color:#173b36;font-size:2.3rem}.offer p{color:#37423e;font-size:1rem}
+.offer .button{background:#1e4540;color:#fff}
+.section-intro-custom{text-align:center;max-width:740px;margin:0 auto 28px}
+.section-intro-custom h2{margin:.3em 0;font-size:clamp(1.8rem,3vw,2.5rem)}
+.hours-strip{background:#f6f0e5;border-block:1px solid #eadfce;padding:38px 0}
+.hours-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:16px;align-items:stretch}
+.hours-item{background:white;border:1px solid var(--mm-border);border-radius:16px;padding:22px;display:flex;flex-direction:column;justify-content:center;gap:5px}
+.hours-item strong{font-size:1.3rem;color:var(--mm-ink)}
+.hours-item small{font-size:.9rem;color:#66736c}
+.hours-item .button{align-self:flex-start;margin-top:10px}
+.mm-team{padding:70px 0;background:#eef5f1}
+.mm-people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.mm-person{background:#fff;border:1px solid #dbe4df;border-radius:20px;overflow:hidden;display:grid;grid-template-columns:40% 60%;box-shadow:0 8px 30px #173b3610}
+.mm-person img{width:100%;height:100%;min-height:260px;object-fit:cover;object-position:center top}
+.mm-person-body{padding:28px;display:flex;flex-direction:column;align-items:flex-start}
+.mm-person-body h3{font-size:1.9rem;margin:0 0 10px}
+.mm-person-body p{margin:0 0 13px}
+.mm-person-body .button{margin-top:auto}
+.mm-person-body .availability{font-weight:700;color:#286057}
+.mm-services{padding:70px 0;background:#faf8f3}
+.mm-services .card{overflow:hidden;border-radius:18px}
+.mm-services .card-img{height:230px;object-fit:cover}
+.mm-services .card-body{padding:26px}
+.mm-services .card h3{font-size:1.55rem}
+.mm-services .card p{font-size:1.02rem}
+.mm-trust{padding:44px 0;background:#e8f1ed}
+.mm-trust .trust strong{font-size:1.15rem}
+.practical{padding:64px 0}
+.practical-grid>div{padding:24px;background:#fff;border:1px solid var(--mm-border);border-radius:15px}
+.dark{padding:48px 0}
+.dark h2{font-size:clamp(1.8rem,3vw,2.5rem)}
+.footer{font-size:.95rem}
+.button{min-height:44px;display:inline-flex;align-items:center;justify-content:center;text-align:center}
+a:focus-visible,button:focus-visible{outline:3px solid #d69c42;outline-offset:3px}
+@media(max-width:900px){.hours-grid{grid-template-columns:1fr 1fr}.hours-grid .hours-item:first-child{grid-column:1/-1}.mm-person{grid-template-columns:1fr}.mm-person img{height:250px;min-height:0}.hero{min-height:0;padding:65px 0}.hero-inner{gap:24px}}
+@media(max-width:620px){.hours-grid,.mm-people{grid-template-columns:1fr}.hours-grid .hours-item:first-child{grid-column:auto}.mm-person{grid-template-columns:38% 62%}.mm-person img{height:100%;min-height:240px}.mm-person-body{padding:18px}.mm-person-body h3{font-size:1.5rem}.mm-team,.mm-services,.practical{padding:45px 0}.hero h1{font-size:2.65rem}.offer{padding:22px}}
+@media(max-width:390px){.mm-person{grid-template-columns:1fr}.mm-person img{height:260px}}
+</style>
 </head>
-
 <body>
-
-<div class="top">
-  Massage für Männer in Winterthur · Persönlich &amp; unkompliziert
-</div>
-
-<header class="header">
-  <div class="container nav">
-
-    <a class="brand" href="index.html">
-      <span class="mark">m</span>
-      <span>man-massage<small>von Mann zu Mann</small></span>
-    </a>
-
-    <button aria-expanded="false" aria-label="Menü öffnen" class="menu">☰</button>
-
-    <nav aria-label="Hauptnavigation" class="links">
-      <a href="index.html">Startseite</a>
-      <a href="massage.html">Massage</a>
-      <a href="gay-massage.html">Gay Massage</a>
-      <a href="team.html">Über uns</a>
-      <a class="button" href="https://man-massage.youcanbook.me/">Termin buchen</a>
-      <a class="lang-switch active" href="index.html" lang="de" aria-current="page">DE</a>
-      <a class="lang-switch" href="en/index.html" lang="en">EN</a>
-    </nav>
-
-  </div>
-</header>
-
+<div class="top">Massage für Männer in Winterthur · Persönlich &amp; unkompliziert</div>
+<header class="header"><div class="container nav">
+<a class="brand" href="index.html"><span class="mark">m</span><span>man-massage<small>von Mann zu Mann</small></span></a>
+<button class="menu" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+<nav class="links" aria-label="Hauptnavigation"><a href="index.html">Startseite</a><a href="massage.html">Massage</a><a href="gay-massage.html">Gay Massage</a><a href="team.html">Über uns</a><a class="button" href="https://man-massage.youcanbook.me/">Termin buchen</a><a class="lang-switch active" href="index.html" lang="de" aria-current="page">DE</a><a class="lang-switch" href="en/index.html" lang="en">EN</a></nav>
+</div></header>
 <main>
-
-  <!-- TITELBEREICH -->
-  <section class="hero">
-    <div class="container hero-inner">
-
-      <div>
-        <span class="eyebrow">Massage für Männer · Winterthur</span>
-        <h1>Deine Auszeit.<br>Ganz bei dir.</h1>
-
-        <p>
-          Eine persönliche Massage von Mann zu Mann.
-          Ankommen, abschalten und den Alltag für eine Weile vergessen.
-        </p>
-
-        <div class="actions">
-          <a class="button" href="https://man-massage.youcanbook.me/">
-            Jetzt Termin buchen
-          </a>
-          <a class="button ghost" href="massage.html">
-            Massagen entdecken
-          </a>
-        </div>
-      </div>
-
-      <aside class="offer">
-        <span>AKTUELLES ANGEBOT MIT VALI</span>
-        <strong>CHF 70</strong>
-        <p>60 Minuten Massage · Termine tagsüber, nach Verfügbarkeit</p>
-        <a class="button" href="https://man-massage.youcanbook.me/">
-          Termin bei Vali anfragen
-        </a>
-      </aside>
-
-    </div>
-  </section>
-
-  <!-- MASSAGEANGEBOTE -->
-  <section>
-    <div class="container">
-
-      <div class="intro">
-        <span class="eyebrow">Deine Möglichkeiten</span>
-        <h2>Welche Massage passt zu dir?</h2>
-        <p class="muted">Zwei Angebote, ein Gedanke: Du sollst dich wohlfühlen.</p>
-      </div>
-
-      <div class="cards">
-
-        <article class="card">
-          <img alt="Entspannende Massage"
-               class="card-img"
-               loading="lazy"
-               src="assets/massage-detail.jpg">
-
-          <div class="card-body">
-            <span class="tag">Entspannung</span>
-            <h3>Massage &amp; Männergesundheit</h3>
-            <p>
-              Wärme, Ruhe und bewusste Entspannung.
-              Für Männer, die sich Zeit für sich nehmen möchten.
-            </p>
-            <a class="more" href="massage.html">Massage entdecken →</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <img alt="Ruhige Massageatmosphäre"
-               class="card-img"
-               loading="lazy"
-               src="assets/wellness.jpg">
-
-          <div class="card-body">
-            <span class="tag">Offen &amp; persönlich</span>
-            <h3>Gay Massage</h3>
-            <p>
-              Massage von Mann zu Mann in einer offenen Atmosphäre.
-              Ohne Vorurteile, mit Respekt für deine Wünsche.
-            </p>
-            <a class="more" href="gay-massage.html">Gay Massage entdecken →</a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- MASSEURE -->
-  <section class="soft">
-    <div class="container">
-
-      <div class="intro">
-        <span class="eyebrow">Die Menschen dahinter</span>
-        <h2>Vali oder Armin. Du entscheidest.</h2>
-      </div>
-
-      <div class="people">
-
-        <article class="person">
-          <img alt="Vali" loading="lazy" src="assets/vali-portrait.jpg">
-
-          <div>
-            <h3>Vali</h3>
-            <p>Vorwiegend tagsüber für dich da.</p>
-            <p><strong>Aktion: CHF 70 / 60 Minuten</strong></p>
-            <a class="button" href="https://man-massage.youcanbook.me/">
-              Bei Vali buchen
-            </a>
-          </div>
-        </article>
-
-        <article class="person">
-          <img alt="Armin" loading="lazy" src="assets/armin-portrait.jpg">
-
-          <div>
-            <h3>Armin</h3>
-            <p>Vor allem abends und am Wochenende.</p>
-            <p>Preise und freie Termine im Buchungskalender.</p>
-            <a class="button" href="https://man-massage.youcanbook.me/">
-              Bei Armin buchen
-            </a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ÖFFNUNGSZEITEN -->
-  <section id="oeffnungszeiten">
-    <div class="container">
-
-      <div class="intro">
-        <span class="eyebrow">Zeit für dich</span>
-        <h2>Unsere Öffnungszeiten</h2>
-        <p class="muted">
-          Ob unter der Woche oder am Wochenende:
-          Wir nehmen uns gerne Zeit für dich.
-          Termine sind ausschliesslich nach Vereinbarung möglich.
-        </p>
-      </div>
-
-      <div class="cards">
-
-        <article class="card">
-          <div class="card-body">
-            <span class="tag">7 Tage die Woche</span>
-            <h3>Wann sind wir für dich da?</h3>
-
-            <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:14px 0;border-bottom:1px solid #ddd;">
-              <strong>Montag – Samstag</strong>
-              <strong>12:00 – 22:00 Uhr</strong>
-            </div>
-
-            <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:14px 0;border-bottom:1px solid #ddd;">
-              <strong>Sonntag</strong>
-              <strong>12:00 – 18:00 Uhr</strong>
-            </div>
-
-            <p class="muted" style="margin-top:18px;">
-              Bitte buche deinen Termin im Voraus.
-              Die verfügbaren Zeiten findest du in unserem Buchungskalender.
-            </p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <span class="tag">Persönliche Betreuung</span>
-            <h3>Dein Masseur. Deine Wahl.</h3>
-
-            <p>
-              <strong>Vali</strong><br>
-              Hauptsächlich tagsüber für dich da.
-            </p>
-
-            <p>
-              <strong>Armin</strong><br>
-              Vorwiegend abends und am Wochenende.
-            </p>
-
-            <p>
-              Du entscheidest selbst, bei wem du deinen Termin buchen möchtest.
-            </p>
-
-            <a class="button" href="https://man-massage.youcanbook.me/">
-              Jetzt Wunschtermin buchen
-            </a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- VERTRAUEN -->
-  <section class="soft">
-    <div class="container trust">
-
-      <div>
-        <strong>Persönlich</strong>
-        <p>Kein anonymer Betrieb. Du wählst deinen Masseur.</p>
-      </div>
-
-      <div>
-        <strong>Unkompliziert</strong>
-        <p>Wunschtermin direkt online anfragen.</p>
-      </div>
-
-      <div>
-        <strong>In Winterthur</strong>
-        <p>Gut erreichbar, auch aus Zürich und dem Thurgau.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ANREISE UND BEZAHLUNG -->
-  <section class="practical">
-    <div class="container">
-
-      <div class="intro">
-        <span class="eyebrow">Gut zu wissen</span>
-        <h2>Einfach anreisen und bezahlen</h2>
-      </div>
-
-      <div class="practical-grid">
-
-        <div>
-          <h3>Von Zürich nach Winterthur</h3>
-          <p>
-            Ab Zürich HB erreichst du uns mit Zug und kurzem Fussweg
-            in rund 30 Minuten. Die genaue Adresse erhältst du
-            bei der Buchung.
-          </p>
-        </div>
-
-        <div>
-          <h3>Fragen oder Termin?</h3>
-          <p>
-            Du erreichst uns telefonisch, per SMS oder WhatsApp unter
-            <a href="tel:+41789831747">078 983 17 47</a>.
-          </p>
-
-          <p>
-            <a href="https://wa.me/41789831747">WhatsApp schreiben</a>
-            ·
-            <a href="sms:+41789831747">SMS senden</a>
-          </p>
-        </div>
-
-        <div>
-          <h3>Bezahlung</h3>
-          <p>
-            Du kannst bar, mit Kreditkarte oder mit TWINT bezahlen.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- TERMINBUCHUNG -->
-  <section class="dark">
-    <div class="container cta">
-
-      <div>
-        <h2>Bereit für deine Auszeit?</h2>
-        <p>Such dir deinen Wunschtermin aus.</p>
-      </div>
-
-      <a class="button" href="https://man-massage.youcanbook.me/">
-        Jetzt online buchen
-      </a>
-
-    </div>
-  </section>
-
+<section class="hero"><div class="container hero-inner"><div><span class="eyebrow">Massage für Männer · Winterthur</span><h1>Deine Auszeit.<br>Ganz bei dir.</h1><p>Eine persönliche Massage von Mann zu Mann. Ankommen, abschalten und den Alltag für eine Weile vergessen.</p><div class="actions"><a class="button" href="https://man-massage.youcanbook.me/">Jetzt Termin buchen</a><a class="button ghost" href="massage.html">Massagen entdecken</a></div></div><aside class="offer"><span>AKTUELLES ANGEBOT MIT VALI</span><strong>CHF 70</strong><p>60 Minuten Massage · Termine tagsüber, nach Verfügbarkeit</p><a class="button" href="https://man-massage.youcanbook.me/">Termin bei Vali buchen</a></aside></div></section>
+<section class="hours-strip" id="oeffnungszeiten"><div class="container"><div class="section-intro-custom"><span class="eyebrow">Gut zu wissen</span><h2>Unsere Öffnungszeiten</h2><p>Sieben Tage die Woche. Massagen ausschliesslich nach Vereinbarung.</p></div><div class="hours-grid"><div class="hours-item"><span class="eyebrow">Deine Auszeit planen</span><strong>Wähle deinen Wunschtermin</strong><small>Die verfügbaren Termine siehst du direkt im Buchungskalender.</small><a class="button" href="https://man-massage.youcanbook.me/">Jetzt Termin buchen</a></div><div class="hours-item"><small>Montag bis Samstag</small><strong>12:00–22:00 Uhr</strong></div><div class="hours-item"><small>Sonntag</small><strong>12:00–18:00 Uhr</strong></div></div></div></section>
+<section class="mm-team" id="masseure"><div class="container"><div class="section-intro-custom"><span class="eyebrow">Die Menschen dahinter</span><h2>Vali oder Armin. Du entscheidest.</h2><p>Bei uns weisst du, wer dich massiert. Wähle den Masseur, bei dem du dich wohlfühlst.</p></div><div class="mm-people"><article class="mm-person"><img src="assets/vali-portrait.jpg" alt="Porträt von Vali" loading="lazy"><div class="mm-person-body"><h3>Vali</h3><p class="availability">Hauptsächlich tagsüber</p><p>Für deine entspannte Auszeit unter der Woche.</p><p><strong>Aktion: CHF 70 / 60 Minuten</strong></p><a class="button" href="https://man-massage.youcanbook.me/">Bei Vali buchen</a></div></article><article class="mm-person"><img src="assets/armin-portrait.jpg" alt="Porträt von Armin" loading="lazy"><div class="mm-person-body"><h3>Armin</h3><p class="availability">Abends und am Wochenende</p><p>Ideal nach der Arbeit oder am freien Tag.</p><p>Preise und freie Termine im Buchungskalender.</p><a class="button" href="https://man-massage.youcanbook.me/">Bei Armin buchen</a></div></article></div></div></section>
+<section class="mm-services" id="angebote"><div class="container"><div class="section-intro-custom"><span class="eyebrow">Deine Möglichkeiten</span><h2>Welche Massage passt zu dir?</h2><p>Zwei Angebote, ein Gedanke: Du sollst dich wohlfühlen.</p></div><div class="cards"><article class="card"><img class="card-img" loading="lazy" src="assets/massage-detail.jpg" alt="Hände bei einer entspannenden Rückenmassage"><div class="card-body"><span class="tag">Entspannung</span><h3>Massage &amp; Männergesundheit</h3><p>Wärme, Ruhe und bewusste Entspannung. Für Männer, die sich Zeit für sich nehmen möchten.</p><a class="more" href="massage.html">Massage entdecken →</a></div></article><article class="card"><img class="card-img" loading="lazy" src="assets/wellness.jpg" alt="Ruhige Wellnessatmosphäre"><div class="card-body"><span class="tag">Offen &amp; persönlich</span><h3>Gay Massage</h3><p>Massage von Mann zu Mann in einer offenen Atmosphäre. Diskret, respektvoll und ohne Schubladen.</p><a class="more" href="gay-massage.html">Gay Massage entdecken →</a><p><a href="gay-massage-winterthur.html">Winterthur</a> · <a href="gay-massage-zuerich.html">Zürich</a></p></div></article></div></div></section>
+<section class="mm-trust"><div class="container trust"><div><strong>Persönlich</strong><p>Kein anonymer Betrieb. Du wählst deinen Masseur.</p></div><div><strong>Diskret</strong><p>Deine Privatsphäre und deine Wünsche werden respektiert.</p></div><div><strong>In Winterthur</strong><p>Gut erreichbar, auch aus Zürich und dem Thurgau.</p></div></div></section>
+<section class="practical"><div class="container"><div class="intro"><span class="eyebrow">Gut zu wissen</span><h2>Einfach anreisen und bezahlen</h2></div><div class="practical-grid"><div><h3>Von Zürich nach Winterthur</h3><p>Ab Zürich HB erreichst du Winterthur bequem mit dem Zug. Die genaue Adresse und Anreiseinformationen erhältst du bei der Buchung.</p></div><div><h3>Fragen oder Termin?</h3><p>Telefon, SMS oder WhatsApp: <a href="tel:+41789831747">078 983 17 47</a>.</p><p><a href="https://wa.me/41789831747">WhatsApp schreiben</a> · <a href="sms:+41789831747">SMS senden</a></p></div><div><h3>Bezahlung</h3><p>Bar, mit Kreditkarte oder mit TWINT.</p></div></div></div></section>
+<section class="dark"><div class="container cta"><div><h2>Bereit für deine Auszeit?</h2><p>Wähle deinen Masseur und einen passenden Termin.</p></div><a class="button" href="https://man-massage.youcanbook.me/">Jetzt online buchen</a></div></section>
 </main>
-
-<!-- FOOTER -->
-<footer class="footer">
-
-  <div class="container quick-contact">
-    <span>
-      Telefon, SMS &amp; WhatsApp:
-      <a href="tel:+41789831747">078 983 17 47</a>
-      ·
-      <a href="https://wa.me/41789831747">WhatsApp</a>
-    </span>
-
-    <span>
-      E-Mail:
-      <a href="mailto:massage@man-massage.ch">massage@man-massage.ch</a>
-    </span>
-
-    <span>Zahlung: Bar · Kreditkarte · TWINT</span>
-  </div>
-
-  <div class="container footer-grid">
-
-    <div>
-      <strong>MAN-MASSAGE</strong>
-      <p>
-        Deine persönliche Auszeit in Winterthur.
-        Massage von Mann zu Mann.
-      </p>
-      <p>
-        Montag – Samstag: 12:00 – 22:00 Uhr<br>
-        Sonntag: 12:00 – 18:00 Uhr<br>
-        Termine nach Vereinbarung.
-      </p>
-    </div>
-
-    <div>
-      <strong>Entdecken</strong>
-      <p>
-        <a href="massage.html">Massage</a><br>
-        <a href="gay-massage.html">Gay Massage</a><br>
-        <a href="gay-massage-winterthur.html">Winterthur</a><br>
-        <a href="gay-massage-zuerich.html">Für Zürich</a><br>
-        <a href="blog/index.html">Blog</a>
-      </p>
-    </div>
-
-    <div>
-      <strong>Informationen</strong>
-      <p>
-        <a href="team.html">Über uns</a><br>
-        <a href="kontakt.html">Kontakt</a><br>
-        <a href="impressum.html">Impressum</a><br>
-        <a href="datenschutz.html">Datenschutz</a>
-      </p>
-    </div>
-
-  </div>
-
-  <div class="container small">
-    © 2026 MAN-MASSAGE · Winterthur
-  </div>
-
-</footer>
-
+<footer class="footer"><div class="container quick-contact"><span>Telefon, SMS &amp; WhatsApp: <a href="tel:+41789831747">078 983 17 47</a> · <a href="https://wa.me/41789831747">WhatsApp</a></span><span>E-Mail: <a href="mailto:massage@man-massage.ch">massage@man-massage.ch</a></span><span>Zahlung: Bar · Kreditkarte · TWINT</span></div><div class="container footer-grid"><div><strong>MAN-MASSAGE</strong><p>Deine persönliche Auszeit in Winterthur. Massage von Mann zu Mann.</p><p>Mo–Sa 12:00–22:00 Uhr<br>So 12:00–18:00 Uhr<br>Nur nach Vereinbarung</p></div><div><strong>Entdecken</strong><p><a href="massage.html">Massage</a><br><a href="gay-massage.html">Gay Massage</a><br><a href="gay-massage-winterthur.html">Winterthur</a><br><a href="gay-massage-zuerich.html">Für Zürich</a><br><a href="blog/index.html">Blog</a></p></div><div><strong>Informationen</strong><p><a href="team.html">Über uns</a><br><a href="kontakt.html">Kontakt</a><br><a href="impressum.html">Impressum</a><br><a href="datenschutz.html">Datenschutz</a></p></div></div><div class="container small">© 2026 MAN-MASSAGE · Winterthur</div></footer>
 <script defer src="script.js"></script>
-
-</body>
-</html>
+</body></html>
