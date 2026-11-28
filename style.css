@@ -23,3 +23,8 @@ a.button.ghost,a.button.ghost:visited{background:#fff;color:#113d48!important}
 .offer span,.offer strong,.offer p,.hero .offer p{color:#233b3d}
 .offer a.button,.offer a.button:visited{background:#113d48;color:#fff!important}
 @media(max-width:720px){.pricing-grid{grid-template-columns:1fr}}
+
+.blog-cover { margin: 1.5rem 0; max-width: 38rem; }
+.blog-cover-frame { position: relative; aspect-ratio: 1; overflow: hidden; border-radius: .65rem; background: #eee; }
+.blog-cover-frame img { position: absolute; width: 300%; max-width: none; height: 300%; left: calc(var(--cover-column) * -100%); top: calc(var(--cover-row) * -100%); }
+.blog-cover figcaption { margin-top: .4rem; }
